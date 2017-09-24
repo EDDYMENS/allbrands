@@ -4,8 +4,8 @@
 $(document).ready(function() {
 var imported = document.createElement('script');
 imported["className"] = 'devless-connection';
-imported.attributes['devless-con-token'] = {"value":"0cc39661d0556719cedbda4bfa463ac1"}
-imported.src = 'http://localhost:8080/js/devless-sdk.js';
+imported.attributes['devless-con-token'] = {"value":"fca4ffc6baaef2cdd445c537da2a8f54"}
+imported.src = 'http://45.33.95.89:6060/js/devless-sdk.js';
 document.body.appendChild(imported);
     dvInterceptQueryResponse = function(response) {
 
